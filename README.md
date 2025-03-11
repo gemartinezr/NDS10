@@ -73,22 +73,22 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 
 - March 
   - March   3 - 7: Lab tests / work in written report        
-  - March 10 - 14: Report 1st draft  (sections 1 - 4)    
-  - March 17 - 24: Supervisor feedback
-  - March 24 - 28: Lab tests / work in report
+  - March 10 - 14: Lab tests / work in report    
+  - March 17 - 24: Report 1st draft  (sections 1 - 4)
+  - March 24 - 28: Supervisor feedback
   
 - April 
-  - April 1  - 4:  Report work and Lab tests / 2nd draft  (sections 1 - 6) 
-  - April 7  - 11: Supervisor feedback
-  - April 14 - 18: Testing
-  - April 21 - 25: Report 3rd draft and test results  (sections 1 - 7)
-  - April 28 - 30: Testing         
+  - April 1  - 4:  Lab tests / work in report 
+  - April 7  - 11: Report 2nd draft  (sections 1 - 6)
+  - April 14 - 18: Supervisor feedback
+  - April 21 - 25: Lab tests / work in report 
+  - April 28 - 30: Report 3rd draft  (sections 1 - 7)         
   
 - May 
   - May   1 -  9: Supervisor feedback     
-  - May  12 - 16: Preliminary submission  (sections 1 - 9)
-  - May  19 - 23: Tests / feedback
-  - May  26 - 30: Last corrections
+  - May  12 - 16: Lab tests / work in report
+  - May  19 - 23: Preliminary submission  (sections 1 - 9)
+  - May  26 - 30: Final corrections
 
 - June
   - June  2 -  6: Project submission 
