@@ -66,34 +66,34 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 
 ### Calendar
 - February
-  - Feb  3 - 7 : Project proposal
-  - Feb 10 - 14: Plan for thesis supervision / supervisor feedback   
-  - Feb 17 - 21: Lab setup
-  - Feb 24 - 28: Submit thesis contract / define written report structure  
+  - W06 > Feb  3 - 7 : Project proposal
+  - W07 > Feb 10 - 14: Plan for thesis supervision / supervisor feedback   
+  - W08 > Feb 17 - 21: Lab setup
+  - W09 > Feb 24 - 28: Submit thesis contract / define written report structure  
 
 - March 
-  - March   3 - 7: Lab tests / work in written report        
-  - March 10 - 14: Lab tests / work in report    
-  - March 17 - 24: Report 1st draft  (sections 1 - 4)
-  - March 24 - 28: Supervisor feedback
+  - W10 > March   3 - 7: Lab tests / work in written report        
+  - W11 > March 10 - 14: Lab tests / work in report    
+  - W12 > March 17 - 24: Report 1st draft  (sections 1 - 4)
+  - W13 > March 24 - 28: Supervisor feedback
   
 - April 
-  - April 1  - 4:  Lab tests / work in report 
-  - April 7  - 11: Report 2nd draft  (sections 1 - 6)
-  - April 14 - 18: Supervisor feedback
-  - April 21 - 25: Lab tests / work in report 
-  - April 28 - 30: Report 3rd draft  (sections 1 - 7)         
+  - W14 > April 1  - 4:  Lab tests / work in report 
+  - W15 > April 7  - 11: Report 2nd draft  (sections 1 - 6)
+  - W16 > April 14 - 18: Supervisor feedback
+  - W17 > April 21 - 25: Lab tests / work in report 
+  - W18 > April 28 - 30: Report 3rd draft  (sections 1 - 7)         
   
 - May 
-  - May   1 -  9: Supervisor feedback     
-  - May  12 - 16: Lab tests / work in report
-  - May  19 - 23: Preliminary submission  (sections 1 - 9)
-  - May  26 - 30: Final corrections
+  - W19 > May   1 -  9: Supervisor feedback     
+  - W20 > May  12 - 16: Lab tests / work in report
+  - W21 > May  19 - 23: Preliminary submission  (sections 1 - 9)
+  - W22 > May  26 - 30: Final corrections
 
 - June
-  - June  2 -  6: Project submission 
-  - June  9 - 16: Exam preparation
-  - June 16 - 23: Exam   
+  - W23 > June  2 -  6: Project submission 
+  - W24 > June  9 - 13: Exam preparation
+  - W25 > June 16 - 20: Exam   
 
 
 ### Tasks completed
@@ -102,12 +102,13 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 - Written report structure
 - Lab setup    
 
-### Tasks in progress
+### Tasks in progress 
 
 - Report 1st draft
   - Sections 1 and 2
   - Section 3 
   - Section 4
+- Device hardware/software specifications
 - Baseline configuration definition
 - Device configuration dataset and definitions
 
