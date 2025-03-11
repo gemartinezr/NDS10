@@ -8,21 +8,20 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 
 
 ### Objectives
-1. **Handle message rate limitations**  
-   Latency spikes and data loss occur when vehicle message rates increase, requiring manual configuration for each device, which is time-consuming.  
+**Handle message rate limitations**  
+  Latency spikes and data loss occur when vehicle message rates increase, requiring manual configuration for each device, which is time-consuming.  
 
-   - **Solution: Adaptive Device Configuration**  
-     Implement automated configuration adjustments using Machine Learning or statistical techniques to dynamically adapt to changing message rates.
+  - **Solution: Adaptive Device Configuration**  
+    Implement automated configuration adjustments using Machine Learning or statistical techniques to dynamically adapt to changing message rates.
 
-2. **Scalability of MQTT**  
-   The impact of key parameters (QoS, message priorities) on scalability has not been fully explored. Critical questions remain:  
-   - How many devices can a message broker handle before performance degrades?  
-   - Could alternative protocols provide better efficiency?
+**Scalability of MQTT**  
+  The impact of key parameters (QoS, message priorities) on scalability has not been fully explored. Critical questions remain:  
+  - How many devices can a message broker handle before performance degrades?  
+  - Could alternative protocols provide better efficiency?
 
-   - **Solution: Message queueing optimization**  
-     - Fine-tune MQTT settings to enhance performance.  
-     - Benchmark alternative protocols such as gRPC and CoAP to evaluate their scalability and efficiency.
-
+  - **Solution: Message queueing optimization**  
+    - Fine-tune MQTT settings to enhance performance.  
+    - Benchmark alternative protocols such as gRPC and CoAP to evaluate their scalability and efficiency.
 
 
 ### Definitions  
@@ -34,9 +33,7 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 - Service rate ($\mu$): average number of CAN signals processed per time unit.
   - Device service rate  (vehicle --> device --> message broker)
   - Message broker service rate   (device --> message broker --> cloud platform )
-   
 - Message priority: each CAN signal can be assigned a priority (which makes the signal jump to the front of the queue).
-
 - Device configuration: it consists of a set of tuples (`can_sampling_frequency`, `msg_upload_frequency`, `priority`). 
 
 - Latency: time it takes for a CAN signal to arrive to the cloud platform. 
@@ -45,11 +42,19 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 
 
 ### Report Structure
-  1. Introduction
-  2. State of the art
-  3. Methods
-  4. Results
-  5. Conclusion
+  1. Abstract
+  2. Preface
+  3. Introduction
+     1. Objectives / Motivation
+     2. Context terms
+  4. Analysis
+     1. State of the art
+     2. Requirements
+  5. Design and Implementation
+  6. Evaluation
+  7. Discussion
+  8. Conclusion
+  9. Bibliography
 
 
 #### References  
@@ -62,34 +67,52 @@ This project builds on the 9th semester internship with AutoPi. An external orga
 ### Calendar
 - February
   - Feb  3 - 7 : Project proposal
-  - Feb 10 - 14: Plan for thesis supervision and lab work  **--> meeting** 
-  - Feb 17 - 21: Submit thesis contract
-  - Feb 24 - 28: Report 1st draft and framework for tests  
+  - Feb 10 - 14: Plan for thesis supervision / supervisor feedback   
+  - Feb 17 - 21: Lab setup
+  - Feb 24 - 28: Submit thesis contract / define written report structure  
 
 - March 
-  - March  3 - 7:  Supervisor feedback        **--> meeting**
-  - March 10 - 14: Testing   
-  - March 17 - 24: 2nd test results
-  - March 24 - 28: Report 2nd draft
+  - March   3 - 7: Lab tests / work in written report        
+  - March 10 - 14: Report 1st draft  (sections 1 - 4)    
+  - March 17 - 24: Supervisor feedback
+  - March 24 - 28: Lab tests / work in report
   
 - April 
-  - April 1  - 4:  Supervisor feedback        **--> meeting**
-  - April 7  - 11: Testing
+  - April 1  - 4:  Report work and Lab tests / 2nd draft  (sections 1 - 6) 
+  - April 7  - 11: Supervisor feedback
   - April 14 - 18: Testing
-  - April 21 - 25: Report 3rd draft and test results
+  - April 21 - 25: Report 3rd draft and test results  (sections 1 - 7)
   - April 28 - 30: Testing         
   
 - May 
-    - May   1 -  9: Supervisor feedback       **--> meeting**
-    - May  12 - 16: Preliminary submission
-    - May  19 - 23: Tests / feedback
-    - May  26 - 30: Corrections from last feedback 
+  - May   1 -  9: Supervisor feedback     
+  - May  12 - 16: Preliminary submission  (sections 1 - 9)
+  - May  19 - 23: Tests / feedback
+  - May  26 - 30: Last corrections
+
 - June
   - June  2 -  6: Project submission 
+  - June  9 - 16: Exam preparation
   - June 16 - 23: Exam   
 
 
-### February tasks
+### Tasks completed
+
+- Activities calendar
+- Written report structure
+- Lab setup    
+
+### Tasks in progress
+
+- Report 1st draft
+  - Sections 1 and 2
+  - Section 3 
+  - Section 4
+- Baseline configuration definition
+- Device configuration dataset and definitions
+
+------ 
+### Task backlog
 
 - Adaptive Configuration
   - Generate device dataset (configurations, collected CAN data)
@@ -102,4 +125,3 @@ This project builds on the 9th semester internship with AutoPi. An external orga
   
 - Report
     - Key terms definition
-    - Define report structure
