@@ -85,7 +85,8 @@ This project builds on the 9th semester internship with AutoPi. An external orga
     - May  19 - 23: Tests / feedback
     - May  26 - 30: Corrections from last feedback 
 - June
-  - June 2 - 6 : Project submission   
+  - June  2 -  6: Project submission 
+  - June 16 - 23: Exam   
 
 
 ### February tasks
