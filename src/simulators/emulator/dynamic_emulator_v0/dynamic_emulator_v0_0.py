@@ -181,7 +181,6 @@ USB2can needs to be connected, then:
 To see logs from FMC003:
     sudo picocom -b 9600 /dev/ttyUSB0
 
-
 To capture logs: 
     sudo cat /dev/ttyUSB0 > fmc003_log_raw.txt
 

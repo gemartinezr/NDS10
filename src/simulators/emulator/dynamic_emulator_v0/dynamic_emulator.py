@@ -253,14 +253,11 @@ See logs from FMC003:
     sudo cat -A /dev/ttyUSB0
 
 Capture logs from FMC003: 
-    sudo cat /dev/ttyUSB0 > fmc003_raw_startTime.txt
-
-Capture logs from FMC003 with a timeout :
-    timeout 10s sudo cat -A /dev/ttyUSB0 > fmc003_raw_startTime.txt  
+    timeout 5m sudo cat -A /dev/ttyUSB0 > fmc003_raw_$(date -u +"%Y-%m-%dT%H-%M-%SZ").txt
     
 Capture communication in CAN:      
     candump -tz can0 > fmc003_startTime_freematics_.txt
-    timeout 5m candump -tz can0,7DF:7FF > fmc003_canreqs_1039.txt
+    timeout 5m candump -tz can0,7DF:7FF > canlogs_$(date -u +"%Y-%m-%dT%H-%M-%SZ").txt
 """
 
 

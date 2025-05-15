@@ -1,0 +1,222 @@
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 1020:Validation failed. Idx:2843, StrLen:0, Min:4, Max:8, Data:$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [806] value is out of bounds!$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 884:Validation failed. -128 (0, 2147483646)$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [50743] value is out of bounds!$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 884:Validation failed. -128 (0, 2147483646)$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [50773] value is out of bounds!$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 884:Validation failed. -128 (0, 2147483646)$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [50803] value is out of bounds!$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 884:Validation failed. -128 (0, 2147483646)$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [50833] value is out of bounds!$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 884:Validation failed. -128 (0, 2147483646)$
+[2004.01.01 00:00:07]-[CONFIG]^IWARNING @ 701:Parameter [52863] value is out of bounds!$
+[2004.01.01 00:00:10]-[OS.API]^IM2M_AfmCallocInit left_mem:3056$
+[2004.01.01 00:00:10]-[NVM.SYSTEM]^IERROR @ m2m_NVM_system_api.c(644):id: 107 not found$
+[2004.01.01 00:00:10]-[AXL.CLBR]^IEstimation OK (0/0x1)$
+[2004.01.01 00:00:10]-[AXL.CLBR]^IREMAP:{1.000000, 1.000000, 1.000000}$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_IgnitionUpdate[2] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_LED_Blink_Status[1] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2m_Tid_NonCfgParGpsValidation[66] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_Power_Update[11] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_GSM_Status_Update[7] has been scheduled. Period: 30s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_Periodic1sRunner[4] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_Periodic1sRunnerInSleep[5] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_ModemInit[8] has been scheduled. Period: 5s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_WD_Functionality[27] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_BLE_Initialize[97] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_BLE_SensorsUpdate[31] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_BlackboxCountersEvent[51] has been scheduled. Period: 3600s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_AUTOAPN_Init[109] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_Low_Power_Mode[62] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_PeriodicDebugPrint[15] has been scheduled. Period: 15s$
+[2004.01.01 00:00:10]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2004.01.01 00:00:10]-[MDM.QTL]^IReset (power: 0, required: 1)$
+[2004.01.01 00:00:10]-[ADC]^IMeasuring [ENABLED]!$
+[2004.01.01 00:00:10]-[WD]^IModule 186 registered @ 9$
+[2004.01.01 00:00:10]-[TOWING]^IDOUT is off, no need to control$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_Axl_Init[13] has been scheduled. Period: 1s$
+[2004.01.01 00:00:10]-[SCH]^ITask eM2M_Tid_FotaWebCheckPeriod[28] has been scheduled. Period: 10s$
+[2004.01.01 00:00:10]-[OUTCTRL]^Idout inverter. Curr 0, prev 2$
+[2004.01.01 00:00:10]-[OUTCTRL]^IUpdating previous inverter state from 2 to 0$
+[2004.01.01 00:00:10]-[WD]^IModule 192 registered @ 10$
+[2004.01.01 00:00:10]-[WD]^IModule 187 registered @ 11$
+[2004.01.01 00:00:10]-[WD]^IModule 181 registered @ 12$
+[2004.01.01 00:00:10]-[RECMNG]^IRAM Min: 00000000 Max: 00000000$
+[2004.01.01 00:00:10]-[RECMNG]^Iseq_min updated to 0x00000100$
+[2004.01.01 00:00:10]-[RECMNG]^Iseq_max updated to 0x000B4781$
+[2004.01.01 00:00:10]-[RECMNG]^Iseq_min updated to 0x00000100$
+[2004.01.01 00:00:10]-[RECMNG]^Iseq_max updated to 0x00000163$
+[2004.01.01 00:00:10]-[RECMNG]^IFS Min: 00000100 Max: 000B4781$
+[2004.01.01 00:00:10]-[WD]^IModule 182 registered @ 13$
+[2004.01.01 00:00:10]-[MODEM]^IChanging Modem State from:1 to:2$
+[2004.01.01 00:00:10]-[MOD.TSK]^IUnexpected Sap:25$
+[2004.01.01 00:00:10]-[MDM.QTL]^IModem powered down!$
+[2004.01.01 00:00:10]-[WD]^IModule 197 registered @ 14$
+[2004.01.01 00:00:10]-[WD]^IModule 183 registered @ 15$
+[2004.01.01 00:00:10]-[NETWORK]^INetwork task initialized, tsk index: 113$
+[2004.01.01 00:00:10]-[WD]^IModule 184 registered @ 16$
+[2004.01.01 00:00:10]-[WD]^IModule 188 registered @ 17$
+[2004.01.01 00:00:10]-[WD]^IModule 193 registered @ 18$
+[2004.01.01 00:00:10]-[ATCMD]^I>>[225] +EIND: 128$
+$
+$
+[2004.01.01 00:00:10]-[ATCMD]^I>>[225] OK$
+$
+$
+[2004.01.01 00:00:11]-[MDM.QTL]^IWait for status$
+[2004.01.01 00:00:12]-[MDM.QTL]^IStatus changed 0->1, time taken 1200 ms$
+[2004.01.01 00:00:12]-[MODEM]^ISetting PWR state 0->1$
+[2004.01.01 00:00:12]-[GPS.API]^IGNSS FIX Frequency has been changed to [1 Hz]$
+[2004.01.01 00:00:12]-[GPS.API]^I[SEND.MT3333.CMD] len: 18, written, 0, data: [$PMTK220,1000*1F$
+$
+]$
+[2004.01.01 00:00:12]-[GPS.API]^IWARNING @ 814:[GPS.CONTROL] State changed OFF => ON$
+[2004.01.01 00:00:12]-[SCH]^ITask eM2M_Tid_GNSSVersionCheck[60] has been scheduled. Period: 6s$
+[2004.01.01 00:00:12]-[GPS.API]^I[GPS.CONTROL] State change over$
+[2004.01.01 00:00:12]-[GPS.API]^IWARNING @ 284:M2M_GPS_NoFix_TimerStart$
+[2004.01.01 00:00:13]-[SCH]^ITask eM2M_Tid_AUTOAPN_Init[109] dropped$
+[2004.01.01 00:00:13]-[IO.APP]^IIgnition changed:0->1 (4)$
+[2004.01.01 00:00:13]-[AXL.APP]^IWARNING @ 339:AXL is not initialized!$
+[2004.01.01 00:00:13]-[SCH]^ITask eM2m_Tid_NonCfgParGpsValidation[66] dropped$
+[2004.01.01 00:00:13]-[FUEL]^ISuccessfully read from flash, value 131043997$
+[2004.01.01 00:00:13]-[FUEL]^IRetained has smaller value, updating...$
+[2004.01.01 00:00:13]-[FUEL]^ITotal distance from odometer(no fix): 62678574$
+[2004.01.01 00:00:13]-[IDLING]^IState changed: UNKNOWN -> MOVING Ign:1 Tmo:0$
+[2004.01.01 00:00:13]-[ModeChange]^I[Mode.Change]-> eOperType_Null :4$
+[2004.01.01 00:00:13]-[ModeChange]^IUnknown on Stop profile is updated and reloaded$
+[2004.01.01 00:00:13]-[TSYNC.SWITCH]^ITsync state changed: <Tsync check> => <Wait GNSS fix>$
+[2004.01.01 00:00:13]-[APN.LIST]^IInit starting$
+[2004.01.01 00:00:13]-[APN.LIST]^IERROR @ m2m_apn_list.c(288):file "D:\@apn\APN_list.bin" does not exist$
+[2004.01.01 00:00:13]-[APN.LIST]^IERROR @ m2m_apn_list.c(740):AutoAPN error: state:1, err:-6$
+[2004.01.01 00:00:13]-[SLEEP]^ISleep flags initialized.$
+[2004.01.01 00:00:13]-[LiPo]^IHardware init$
+[2004.01.01 00:00:13]-[LiPo]^ICharger FSM: INITIAL -> CHECK$
+[2004.01.01 00:00:13]-[SCH]^ITask eM2M_Tid_LiPo_Battery_Check[57] has been scheduled. Period: 1s$
+[2004.01.01 00:00:13]-[MODEM]^IChanging Modem State from:2 to:1$
+[2004.01.01 00:00:13]-[MODEM.ACTION]^IExt modem detected. Power On$
+[2004.01.01 00:00:13]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2004.01.01 00:00:13]-[SCH]^ITask eM2M_Tid_ModemInit[8] dropped$
+[2004.01.01 00:00:13]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2004.01.01 00:00:13]-[ATCMD]^I<<ATE0$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[161] ATE0$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[161] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CGMI$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[162] MeiG$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[162] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CGMM$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[163] SLM320PE_TK$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[163] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CGMR$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[164] SLM320PE_TK_V51_U09$
+[2004.01.01 00:00:14]-[MDM.ALT]^IUpdating jamming support flag to: 1$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[164] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CMGF=0$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[109] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CNMI=2,1,0,0,0$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[107] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+CSCS="GSM"$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[110] OK$
+[2004.01.01 00:00:14]-[ATCMD]^I<<AT+IPR=921600$
+$
+[2004.01.01 00:00:14]-[ATCMD]^I>>[160] OK$
+[2004.01.01 00:00:14]-[AXL.APP]^IWARNING @ 339:AXL is not initialized!$
+[2004.01.01 00:00:14]-[TSYNC.SWITCH]^IGNSS startup TSYNC wait timer value: 0 [60]$
+[2004.01.01 00:00:14]-[FW.Info]^I$
+$
+^IFW version: 03.29.00 Rev:1113$
+^IModem vers: TM25Q_R_01.00.08.00_003$
+^IToolchain : 3.1.0569$
+^ICompiled  : 2024/11/11 14:11$
+^IHW version: FMC003 Mod:2$
+^IHW voltage: 2546 mV$
+^IIMEI      : 864636064859107$
+^IBL version: 1.10$
+$
+[2004.01.01 00:00:14]-[SYS.DIAG]^I***^IPower On Reason: PwrVoltage [Cnt:0] [ABN:0]^I***$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[225] AT READY$
+[2004.01.01 00:00:15]-[OBDII]^ITLT IC Already Updated! IAP:00011800, IC:00011800$
+[2004.01.01 00:00:15]-[ATCMD]^I<<AT+CMEE=2$
+$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[118] OK$
+[2004.01.01 00:00:15]-[ATCMD]^I<<AT+CGMR$
+$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[165] SLM320PE_TK_V51_U09$
+[2004.01.01 00:00:15]-[MDM.ALT]^IUpdating jamming support flag to: 1$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[165] OK$
+[2004.01.01 00:00:15]-[ATCMD]^I<<AT+CGSN$
+$
+[2004.01.01 00:00:15]-[AXL.APP]^IWARNING @ 339:AXL is not initialized!$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[104] 864636064859107$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[104] OK$
+[2004.01.01 00:00:15]-[ATCMD]^I<<AT+CSQ$
+$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[130] +CSQ: 99,99$
+[2004.01.01 00:00:15]-[ATCMD]^I>>[130] OK$
+[2004.01.01 00:00:15]-[EQ]^IIO Updater Init Done$
+[2004.01.01 00:00:15]-[TRACK]^IWARNING @ 82:Time not synchronized!$
+[2004.01.01 00:00:15]-[GPS.MAIN]^IMTK GPS part got called$
+$
+[2004.01.01 00:00:15]-[GPS.API]^IWARNING @ 924:[GPS.CONTROL] State changed ON => SET GNSS$
+[2004.01.01 00:00:15]-[SCH]^ITask eM2M_Tid_GNSSVersionCheck[60] dropped$
+[2004.01.01 00:00:15]-[GPS.API]^Ileave gps module in ON state [set gnss]$
+[2004.01.01 00:00:15]-[GPS.API]^INMEA Log:0, Debug:0$
+[2004.01.01 00:00:15]-[GPS.API]^Iattempt send pmtk 299 (1/5)$
+[2004.01.01 00:00:15]-[GPS.API]^I[SEND.PMTK.CMD] len: 15, data: [$PMTK299,0*2C$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:16]-[AXL.APP]^IWARNING @ 339:AXL is not initialized!$
+IRQ SOURCE -> INT1:0x0, INT2:0x0$
+[2004.01.01 00:00:16]-[DRV.LIS3DH]^IConfiguration SUCCEEDED$
+IRQ SOURCE -> INT1:0x0, INT2:0x0, REF: 0x0$
+[2004.01.01 00:00:16]-[DRV.LIS3DH]^IConfiguration SUCCEEDED$
+[2004.01.01 00:00:16]-[CRASH.CONFIG]^IConfiguration SUCCEEDED: Threshold:1500 Duration:5 Range:2 G$
+[2004.01.01 00:00:16]-[SCH]^ITask eM2M_Tid_Axl_Init[13] dropped$
+[2004.01.01 00:00:16]-[SCH]^ITask eM2M_Tid_Axl_Scenarios[16] has been scheduled. Period: 1s$
+[2004.01.01 00:00:16]-[GPS.API]^I[GNSS mod: 0] set gnss response found!$
+[2004.01.01 00:00:16]-[GPS.API]^Iattempt send pmtk 838 (1/5)$
+[2004.01.01 00:00:16]-[GPS.API]^I[SEND.PMTK.CMD] len: 15, data: [$PMTK838,0*2D$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:16]-[GPS.API]^I[GNSS mod: 0] set gnss response found!$
+[2004.01.01 00:00:16]-[GPS.API]^IGPS hasn't been off, default start$
+[2004.01.01 00:00:16]-[GPS.API]^Iattempt send pmtk 220 (1/5)$
+[2004.01.01 00:00:16]-[GPS.API]^I[SEND.PMTK.CMD] len: 18, data: [$PMTK220,1000*1F$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:16]-[GPS.API]^IGNSS FIX Frequency has been changed to [1 Hz]$
+[2004.01.01 00:00:16]-[GPS.API]^I[GNSS mod: 0] set gnss response found!$
+[2004.01.01 00:00:16]-[GPS.API]^Iattempt send pmtk 286 (1/5)$
+[2004.01.01 00:00:16]-[GPS.API]^I[SEND.PMTK.CMD] len: 15, data: [$PMTK286,1*23$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:17]-[GPS.API]^I[GNSS mod: 0] set gnss response found!$
+[2004.01.01 00:00:17]-[GPS.API]^Iattempt send pmtk 869 (1/5)$
+[2004.01.01 00:00:17]-[GPS.API]^I[SEND.PMTK.CMD] len: 17, data: [$PMTK869,1,1*35$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:17]-[OBDII]^IERROR @ m2m_obd.c(2553):PID parsing failed! 1 != 6. Header:0x7E8 SID:0x41 PID:0xC Mask:0x1$
+[2004.01.01 00:00:17]-[ATCMD]^I>>[225] +SIM Ready$
+[2004.01.01 00:00:17]-[OBDII]^IERROR @ m2m_obd.c(2553):PID parsing failed! 1 != 6. Header:0x7E8 SID:0x41 PID:0xC Mask:0x1$
+[2004.01.01 00:00:17]-[GPS.API]^I[GNSS mod: 0] set gnss response found!$
+[2004.01.01 00:00:17]-[GPS.API]^Iattempt send pmtk 352 (1/5)$
+[2004.01.01 00:00:17]-[GPS.API]^I[SEND.PMTK.CMD] len: 15, data: [$PMTK352,0*2A$
+$
+], result: 1, written:5$
+[2004.01.01 00:00:17]-[TRACK]^IWARNING @ 82:Time not synchronized!$
+[2004.01.01 00:00:18]-[OS.API]^ITake big memory left:35 Total:283052 Allocated now:2690 (f0190ed4)$
+[2004.01.01 00:00:18]-[OS.API]^IFree big memory (f0190ed4) left:36$
+[2004.01.01 00:00:18]-[TRACK]^IWARNING @ 82:Time not synchronized!$
+[2004.01.01 00:00:18]-[TRACK]^IWARNING @ 82:Time not synchronized!$
+[2004.01.01 00:00:18]-[ModeChange]^I[Mode.Change]-> eOperType_Null :4$
+[2004.01.01 00:00:18]-[ModeChange]^IUnknown on Moving profile is updated and reloaded$
+[2004.01.01 00:00:19]-[TSYNC.SWITCH]^IGNSS startup TSYNC wait timer value: 5 [60]$
+[2004.01.01 00:00:19]-[LiPo]^IVoltage Check: 3435mV$
+[2004.01.01 00:00:19]-[LiPo]^IBattery presence detected$
+[2004.01.01 00:00:19]-[LiPo]^ICharger FSM: CHECK -> ACTIVE$

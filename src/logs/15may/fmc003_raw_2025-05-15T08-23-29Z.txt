@@ -1,0 +1,1637 @@
+[2004.01.01 00:00:20]-[LiPo]^IAddon state change OFF -> WAIT$
+[2025.05.15 08:23:28]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:23:28]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:23:28]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:23:28]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:23:28]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:23:28]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:23:28]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:23:28]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:23:28]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:23:28]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:23:28]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:23:28]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:23:28]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:23:28]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:23:28]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:23:28]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:23:28]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:23:29]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[131] +QCSQ: "LTE",-74,-102,53,-11$
+[2025.05.15 08:23:29]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:23:29]-[AT.RSP]^I#RSSI: -74 dBm$
+$
+[2025.05.15 08:23:29]-[AT.RSP]^I#RSRP: -102 dBm$
+$
+[2025.05.15 08:23:29]-[AT.RSP]^I#SINR: -9.4 dB$
+$
+[2025.05.15 08:23:29]-[AT.RSP]^I#RSRQ: -11 dB$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[130] +CSQ: 19,99$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:23:29]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:23:29]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:23:29]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:23:29]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:23:29]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:23:29]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:23:30]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:23:30]-[SYS.DIAG]^I$
+$
+Code Version:03.29.00$
+Code Rev:1113$
+IMEI:^I864636064859107$
+HW ver:^IFMC003$
+HW mod:^I2$
+HW volt:2546mV$
+HW tbl:^I5$
+BL ver:^I1.10$
+BLE:^I1$
+NAND:^I3$
+AXL:^I1/LIS3DH$
+$
+BT ADDR:{7B:F1:5B:BA:62:61}$
+$
+Started:2025-5-15 8:7$
+Uptime:^I0d 0h 15min 32s$
+PWR rsn:PwrVoltage Cnt:0 Abn:0$
+Mode:Unknown on Moving$
+SpcId:1$
+UpdRes:-65536$
+$
+$
+Calib:^IFull$
+Run:^I0$
+Qual:^I1.00$
+Dbg:^I0$
+Iter:^I0,0$
+G{0.971063;-0.080653;-0.224794}$
+R{-0.064914;-0.995540;-0.002837}$
+MAP{1.000000;1.000000;1.000000}$
+DynZ{0.000754;-0.017938;0.999839}$
+$
+$
+GPS Fix: 0$
+No fix reason: 3585$
+GPS state: 1$
+TTFF:^I 0s$
+TTLF:^I 0s$
+NoFix:^I 930s$
+Latitude :57.013817$
+Longitude:9.986203$
+Altitude :0$
+FW Ver:^IAXN_5.1.9$
+SN mode: 0$
+$
+TSYNC:^I Last Sync:NTP at 1747296555s, NTP cnt:1, Fails:0$
+$
+[2025.05.15 08:23:36]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 18 / 30$
+[2025.05.15 08:23:36]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:23:36]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:23:36]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:23:36]-[ATCMD]^I<<AT+CIPSEND=0,31$
+$
+[2025.05.15 08:23:37]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:23:37]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:23:37]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:23:37]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:23:37]-[ATCMD]^I>>[213] +CIPACK:13192,13161,31$
+[2025.05.15 08:23:37]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:23:37]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:23:37]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:23:37]-[ATCMD]^I<<AT+CIPRXGET=2,0,1460$
+$
+[2025.05.15 08:23:37]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:23:37]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:23:38]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:23:38]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:23:39]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:23:40]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:23:43]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:23:43]-[TRIP]^IDistance driven: 0 km$
+[MODEM.STATUS]$
+$
+^ICCID        : 89358151000014474335$
+^IIMSI        : 208090117229056$
+^IData Link   : 1/0/0/0/0/0$
+^IGPRS Status : 1$
+^IPhone Status: 0$
+^IPIN Attempts : 3,3$
+^IGSM Operator: 23820$
+^IBat. Charge : 0$
+^IGSM Signal  : 4$
+^IService     : 0$
+^INew Message : 0$
+^IRoaming     : 1$
+^ISMS Full    : 0$
+^IVoice Call  : 0$
+^ILAC         : 14011$
+^ICell ID     : 41971232$
+^ICFUN        : 1$
+^ICSQ (rssi)  : 19$
+^IQCSQ (rssi) : -74 dBm$
+^IQCSQ (rsrp) : -102 dBm$
+^IQCSQ (sinr) : -9.4 dB$
+^IQCSQ (rsrq) : -11 dB$
+^I[0]SIM detected: 1$
+^INetwork Type: 2/4G$
+^ICurrent LTE BAND: 20$
+$
+^IModem (Relative / Absolute):$
+^IStPin fails : 0 / 0$
+^IAT dead cnt : 0 / 0$
+^IInit fails  : 0 / 0$
+$
+[2025.05.15 08:23:46]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 28 / 30$
+[2025.05.15 08:23:48]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:23:48]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:23:48]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:23:48]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3702 BatI: 117$
+[2025.05.15 08:23:48]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:1 Limit:10800$
+[2025.05.15 08:23:48]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:23:48]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:23:48]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:23:48]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:23:48]-[REC.SEND.1]^Iwaiting -> 0$
+[2025.05.15 08:23:48]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:23:49]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:23:49]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:23:49]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:23:49]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:23:49]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297429000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 4^I$
+^IIO ID[113]: 9^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 979^I$
+^IIO ID[ 18]: -23^I$
+^IIO ID[ 19]: -892^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:23:49]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:23:49]-[RECMNG]^IRec saved ts:1747297429000 @ 0x000B47A1 hp 0x00000000$
+[2025.05.15 08:23:49]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:23:49]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:23:49]-[CODEC.APP]^IRec found at 0x000B47A1, sort:1$
+[2025.05.15 08:23:49]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:23:49]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:23:49]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:23:49]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:23:49]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:23:49]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:23:49]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:23:50]-[CODEC.APP]^IRec found at 0x000B47A1, sort:1$
+[2025.05.15 08:23:50]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:23:50]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:23:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:23:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:23:50]-[CMD.DEBUG]^ICommand not found! From:2 (^IR[202[202[202[[202[202[202[202[[202[[202[202[2025[202[[202[202[202[202[2)$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:23:50]-[ATCMD]^I<<AT+CIPSEND=0,336$
+$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:23:50]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:23:50]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[213] +CIPACK:13528,13192,336$
+[2025.05.15 08:23:50]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:23:50]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:23:50]-[CODEC.APP]^I0x000B47A1 record marked for server:0$
+[2025.05.15 08:23:50]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:23:50]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:23:50]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:23:50]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:23:50]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:23:50]-[REC.SEND.1]^Iwaiting -> 1$
+[2025.05.15 08:23:56]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 8 / 30$
+[2025.05.15 08:23:58]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:23:58]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:23:58]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:23:58]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:23:58]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:23:58]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:23:58]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:23:58]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:23:58]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:23:58]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:23:58]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:23:59]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:23:59]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[131] +QCSQ: "LTE",-70,-101,56,-15$
+[2025.05.15 08:23:59]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^I#RSSI: -70 dBm$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^I#RSRP: -101 dBm$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^I#SINR: -8.8 dB$
+$
+[2025.05.15 08:23:59]-[AT.RSP]^I#RSRQ: -15 dB$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[130] +CSQ: 21,99$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:23:59]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:23:59]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:23:59]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:23:59]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:23:59]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:23:59]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:23:59]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:24:00]-[FOTAWEB]^IPeriodChk periodic connect$
+[2025.05.15 08:24:00]-[SCH]^ITask eM2M_Tid_FotaWebCheckPeriod[28] dropped$
+[2025.05.15 08:24:00]-[APN.LIST]^IAutoAPN save count: 0$
+[2025.05.15 08:24:00]-[GPS.TEST]^I[GPS.DATA] gps state: ON$
+status FIX: 0$
+No fix reason: 3585$
+moment RMC status: V$
+moment GGA quality: 0$
+moment latitude: 0.000000, good latitude: 57.013817$
+moment longitude: 0.000000, good longitude: 9.986203$
+moment altitude: 0.000000, good altitude: 0.000000$
+moment speed: 0.123645, good speed: 0.000000$
+moment angle: 0.000000, good angle: 0.000000$
+moment gps sats in view/use: 13/0$
+moment galileo sats in view/use: 0/0$
+moment glonass sats in view/use: 6/0$
+moment beidou sats in view/use: 0/0$
+moment total GSV sats in view: 19$
+moment total GSA sats in use: 0$
+status time: 08:24:01$
+status date: 2025.05.15$
+GPS init status: 3$
+moment avg pdop: 0.000000$
+moment avg hdop: 0.000000$
+moment accuracy: 19823.199219$
+fw version: MT3333_AXN_5.1.9_MT2503_STD_F0,0000,,$
+GNSS system: GPS GLONASS$
+nmea data captured: 961$
+nmea stability: 0$
+SN mode: 0$
+gps flashing: 0$
+version state: 3$
+[2025.05.15 08:24:00]-[UPDATE]^IFile transfer type change 0 -> 5$
+[2025.05.15 08:24:00]-[UPDATE]^Istarting update task, file dl type: 5 / web connect, mode: REAL ExpFileMap:0x0$
+[2025.05.15 08:24:00]-[UPDATE]^ICurrent FOTA mode:web connect FileMap:0x0 AGPS:0, OBD:0$
+[2025.05.15 08:24:00]-[FOTAWEB]^IWebFsm state: 7 -> 0$
+[2025.05.15 08:24:00]-[FOTAWEB]^IWebFsm state: 0 -> 1$
+[2025.05.15 08:24:00]-[FOTAWEB]^IWebFsm state: 1 -> 2$
+[2025.05.15 08:24:00]-[FOTAWEB]^IFotaWeb domain:fm.teltonika.lt$
+[2025.05.15 08:24:00]-[FOTAWEB]^Iport: 5000$
+[2025.05.15 08:24:00]-[NETWORK]^I[SOCKET.OPEN.0546] Target:1 Events Cleared$
+[2025.05.15 08:24:00]-[NETWORK]^ITarget IP:0.0.0.0 (valid:1)$
+[2025.05.15 08:24:00]-[TLS]^IM2M_NET_TLS_Deinit:1$
+[2025.05.15 08:24:00]-[NETWORK]^I[SOCKET.OPEN.0546] Socket target: 1, attempt: 1/1$
+[2025.05.15 08:24:00]-[ATCMD]^I<<AT+CIPSTART=1,"TCP","fm.teltonika.lt",5000$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[211] OK$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[225] 1,CONNECT OK$
+[2025.05.15 08:24:01]-[NETWORK]^Iconnection established! acc id: 0, socket id: 1, evt sending: enabled$
+[2025.05.15 08:24:01]-[NETWORK]^IVR socket 1 open! real socket id: 1$
+[2025.05.15 08:24:01]-[NETWORK]^I[SOCKET.OPEN.0546] Waiting for create conn result, waiting: 160 sec$
+[2025.05.15 08:24:01]-[FOTAWEB]^IWebFsm state: 2 -> 3$
+[2025.05.15 08:24:01]-[FOTAWEB]^IFOTA_WEB_PROTOCOL_ID:5$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPSTATUS=1$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[222] +CIPSTATUS:1,0,TCP,35.156.7.140,5000,CONNECT OK$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPSEND=1,120$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:01]-[ATCMD]^I>>[215] 1,SEND OK$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPACK=1$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[213] +CIPACK:120,0,120$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:01]-[NETWORK]^I[SEND.DATA.1105] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:01]-[FOTAWEB]^IWebFsm state: 3 -> 4$
+[2025.05.15 08:24:01]-[FOTAWEB]^Iwaiting for server response/command for 30 sec$
+[2025.05.15 08:24:01]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPRXGET=2,1,1460$
+$
+[2025.05.15 08:24:01]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:24:01]-[NETWORK.PARSER]^IParsing data from 1 socket, data len: 20$
+[2025.05.15 08:24:01]-[NETWORK.PARSER]^IPacket got:$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[216] OK$
+$
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 01 19 2F 8D 45 4E 44 53 $
+DUMP DATA END$
+$
+[2025.05.15 08:24:01]-[CMD.DEBUG]^ICommand not found! From:2 (m 198[202[202[202[202[202[[202[202[202[202[202[202[202[202[202[202[202[202[202[202[202[202[202[202[202[[202[202[202[202[202[202[202)$
+[2025.05.15 08:24:01]-[CMD.DEBUG]^ICommand not found! From:2 (DUM46 4D 42 502 03 04 0038 00 001 192F8D 45 4E44 53 )$
+[2025.05.15 08:24:01]-[DIAG.TOOL]^Icaptured packet, r_crc: 0x2F8D -> need to capt fota web tail$
+[2025.05.15 08:24:01]-[DIAG.TOOL]^Ireceived diag tool req id: 0x01020304, cmd id: 0x0038, source: gprs, type: fota web, data: $
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 01 19 2F 8D 45 4E $
+DUMP DATA END$
+$
+[2025.05.15 08:24:01]-[CMD.DEBUG]^ICommand not found! From:2 (D00 38 00 02 01 19 2F 844E )$
+[2025.05.15 08:24:01]-[ST.RESP]^Irequesting 0x0119 param_id data$
+[2025.05.15 08:24:01]-[ACT]^I3 interface is available$
+[2025.05.15 08:24:01]-[ACT]^IPayload size -> 3$
+[2025.05.15 08:24:01]-[CMD.DEBUG]^ICommand not found! From:2 (D[202[202)$
+[2025.05.15 08:24:01]-[ACT]^IAccessory tracking packet formed$
+[2025.05.15 08:24:01]-[DIAG.TOOL]^IERROR @ m2m_diag_tool.c(444):cant update dynamic par idx: 39 with data, para size is ZERO$
+$
+$
+[2025.05.15 08:24:01]-[ST.RR]^Isearching for 0/ack resp type, for req cmd_id: 0x0038, response[26]: 0x38/0x3B/0x3D/0x0/0x0/0x0$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPSTATUS=1$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[222] +CIPSTATUS:1,0,TCP,35.156.7.140,5000,CONNECT OK$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPSEND=1,31$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:01]-[ATCMD]^I>>[215] 1,SEND OK$
+[2025.05.15 08:24:01]-[ATCMD]^I<<AT+CIPACK=1$
+$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[213] +CIPACK:151,120,31$
+[2025.05.15 08:24:01]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:01]-[NETWORK]^I[SEND.DATA.3367] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:01]-[FOTAWEB]^IReceived ST command$
+[2025.05.15 08:24:01]-[FOTAWEB]^Iwaiting for server response/command for 30 sec$
+[2025.05.15 08:24:02]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPRXGET=2,1,1460$
+$
+[2025.05.15 08:24:02]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:24:02]-[NETWORK.PARSER]^IParsing data from 1 socket, data len: 20$
+[2025.05.15 08:24:02]-[NETWORK.PARSER]^IPacket got:$
+$
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 03 2C 58 4C 45 4E 44 53 $
+DUMP DATA END$
+$
+[2025.05.15 08:24:02]-[DIAG.TOOL]^Icaptured packet, r_crc: 0x584C -> need to capt fota web tail$
+[2025.05.15 08:24:02]-[DIAG.TOOL]^Ireceived diag tool req id: 0x01020304, cmd id: 0x0038, source: gprs, type: fota web, data: $
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 03 2C 58 4C 45 4E $
+DUMP DATA END$
+$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (DUM[202[20)$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (DUM38 00 02 03 2C 58444E )$
+[2025.05.15 08:24:02]-[ST.RESP]^Irequesting 0x032C param_id data$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (DUM[202[202[202)$
+[2025.05.15 08:24:02]-[ACT]^I3 interface is available$
+[2025.05.15 08:24:02]-[ACT]^IPayload size -> 3$
+[2025.05.15 08:24:02]-[ACT]^IAccessory tracking packet formed$
+[2025.05.15 08:24:02]-[DIAG.TOOL]^IERROR @ m2m_diag_tool.c(448):dynamic buffer is still assigned! cant use new, previous usage not finished$
+[2025.05.15 08:24:02]-[ST.RR]^Isearching for 0/ack resp type, for req cmd_id: 0x0038, response[26]: 0x38/0x3B/0x3D/0x0/0x0/0x0$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPSTATUS=1$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[222] +CIPSTATUS:1,0,TCP,35.156.7.140,5000,CONNECT OK$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPSEND=1,26$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:02]-[ATCMD]^I>>[215] 1,SEND OK$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPACK=1$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[213] +CIPACK:177,151,26$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:02]-[NETWORK]^I[SEND.DATA.3367] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:02]-[FOTAWEB]^IReceived ST command$
+[2025.05.15 08:24:02]-[FOTAWEB]^Iwaiting for server response/command for 30 sec$
+[2025.05.15 08:24:02]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPRXGET=2,1,1460$
+$
+[2025.05.15 08:24:02]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:24:02]-[NETWORK.PARSER]^IParsing data from 1 socket, data len: 20$
+[2025.05.15 08:24:02]-[NETWORK.PARSER]^IPacket got:$
+$
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 03 23 5C 0C 45 4E 44 53 $
+DUMP DATA END$
+$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (DUM46 4D 45301 0203 04 00 38 00 02 025C 0C 45 4453 )$
+[2025.05.15 08:24:02]-[DIAG.TOOL]^Icaptured packet, r_crc: 0x5C0C -> need to capt fota web tail$
+[2025.05.15 08:24:02]-[DIAG.TOOL]^Ireceived diag tool req id: 0x01020304, cmd id: 0x0038, source: gprs, type: fota web, data: $
+DUMP DATA START:$
+46 4D 42 53 01 02 03 04 00 38 00 02 03 23 5C 0C 45 4E $
+DUMP DATA END$
+$
+[2025.05.15 08:24:02]-[ST.RESP]^Irequesting 0x0323 param_id data$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (D04 0038 0002 0323 5045 4E)$
+[2025.05.15 08:24:02]-[CMD.DEBUG]^ICommand not found! From:2 (DUM[202)$
+[2025.05.15 08:24:02]-[ST.RR]^Isearching for 0/ack resp type, for req cmd_id: 0x0038, response[26]: 0x38/0x3B/0x3D/0x0/0x0/0x0$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPSTATUS=1$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[222] +CIPSTATUS:1,0,TCP,35.156.7.140,5000,CONNECT OK$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPSEND=1,39$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:02]-[ATCMD]^I>>[215] 1,SEND OK$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPACK=1$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[213] +CIPACK:216,177,39$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:02]-[NETWORK]^I[SEND.DATA.3367] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:02]-[FOTAWEB]^IReceived ST command$
+[2025.05.15 08:24:02]-[FOTAWEB]^Iwaiting for server response/command for 30 sec$
+[2025.05.15 08:24:02]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:24:02]-[ATCMD]^I<<AT+CIPRXGET=2,1,1460$
+$
+[2025.05.15 08:24:02]-[ATCMD]^I>>[216] 1,CLOSED$
+[2025.05.15 08:24:03]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:24:03]-[NETWORK.PARSER]^IParsing data from 1 socket, data len: 23$
+[2025.05.15 08:24:03]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:24:03]-[NETWORK.PARSER]^IPacket got:$
+$
+DUMP DATA START:$
+46 4D 42 58 00 00 00 05 00 01 03 E8 00 01 01 00 01 44 CF 45 4E 44 58 $
+DUMP DATA END$
+$
+[2025.05.15 08:24:03]-[CMD.DEBUG]^ICommand not found! From:2 (46 4D 42 58 00 00 0005 000E01 01 0001 44CF 45 4E 44 58 )$
+[2025.05.15 08:24:03]-[FOTAWEB]^Iusing APN as configured, server did not provide APN$
+[2025.05.15 08:24:03]-[FOTAWEB]^Iusing UserName as configured, server did not provide UserName$
+[2025.05.15 08:24:03]-[FOTAWEB]^Iusing Password as configured, server did not provide Password$
+[2025.05.15 08:24:03]-[FOTAWEB]^Iusing HostName as configured, server did not provide HostName$
+[2025.05.15 08:24:03]-[NETWORK]^I[IND] unexpected close soc detected!$
+[2025.05.15 08:24:03]-[NETWORK]^IWARNING @ 1465:detected socket close! socket id: 1 res:1 data:1$
+[2025.05.15 08:24:03]-[NETWORK]^IVR socket 1 closed! Real:1$
+[2025.05.15 08:24:03]-[TLS]^IM2M_NET_TLS_Deinit:1$
+[2025.05.15 08:24:03]-[FOTAWEB]^Iserver resp do nothing$
+[2025.05.15 08:24:03]-[FOTAWEB]^IWebFsm state: 4 -> 6$
+[2025.05.15 08:24:03]-[FOTAWEB]^IWebFsm state: 6 -> 7$
+[2025.05.15 08:24:03]-[UPDATE]^IFile transfer type change 5 -> 0$
+[2025.05.15 08:24:03]-[SCH]^ITask eM2M_Tid_FotaWebCheckPeriod[28] has been scheduled. Period: 10s$
+[2025.05.15 08:24:06]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 18 / 30$
+[2025.05.15 08:24:08]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:08]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:08]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:6 Limit:10800$
+[2025.05.15 08:24:09]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:24:09]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:24:13]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:24:13]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:24:15]-[OBDII]^IState:DATA REQUESTING(8) Lock:0 (cnt:0) Protocol:6 (last:6) Vext:14643 MovI:0 MovD:0 Header:0x7E8 Phy:0$
+[2025.05.15 08:24:15]-[OBDII]^IVIN:WVWZZZE1ZMP018990 Avail:0xFFFFFFFF;0xFFFFFFFF;0xFFFFFFFF;0xFFFFFFFF;0x00000000;0x00000000 PidCnt:9 ICtyp:3 ICver:v100.11800.100 CfgMode:1$
+[2025.05.15 08:24:15]-[OBDII]^INoECU:0 NoPID:0 0x00000000;0x00000000;0x00000000;0x00000000;0x00000000;$
+[2025.05.15 08:24:16]-[OBD.OEM]^IOEM Diagnostics:$
+^IOBDII data: 1$
+^IVIN VEH: WVWZZZE1ZMP018990 (manual:1), source: 4$
+^ICurrent state: 6 (Error state)$
+^IFSM error occured: -7$
+^IRequest error occured: 0$
+^IDataInfo is present: 1$
+^INew DataInfo present: 0$
+^IRequest retry timer: 0 s$
+^IRequest retry count: 0$
+^IGeneral error count: 0$
+[2025.05.15 08:24:16]-[OBD.OEM]^IVehicle data:$
+^IVER:5$
+^IDB source: 0 (0)$
+^IGenResult: 1$
+^IVIN: WVWZZZE1ZMP018990 (src:3)$
+^IDescription: Volkswagen;id.3;2021;vw_id3_e1                    $
+^IGenTime: 1745843861$
+[2025.05.15 08:24:16]-[OBD.OEM]^ITotal OEM DIDs:22$
+^I0: Entry ID: 1022,DID: 0x101,Valid: 0,Fail Cnt: 0,Valid State: 1,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I1: Entry ID: 1023,DID: 0x101,Valid: 0,Fail Cnt: 0,Valid State: 1,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I2: Entry ID: 1027,DID: 0x10F,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I3: Entry ID: 1028,DID: 0x108,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I4: Entry ID: 1029,DID: 0x128,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I5: Entry ID: 1030,DID: 0x129,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I6: Entry ID: 1031,DID: 0x127,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I7: Entry ID: 1234,DID: 0x144,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I8: Entry ID: 1588,DID: 0x203,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I9: Entry ID: 1589,DID: 0x202,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I10: Entry ID: 1590,DID: 0x146,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I11: Entry ID: 1591,DID: 0x147,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I12: Entry ID: 1592,DID: 0x205,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I13: Entry ID: 1593,DID: 0x204,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I14: Entry ID: 1594,DID: 0x20D,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I15: Entry ID: 1596,DID: 0x207,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I16: Entry ID: 1598,DID: 0x20E,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I17: Entry ID: 1599,DID: 0x20F,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I18: Entry ID: 1600,DID: 0x206,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I19: Entry ID: 1601,DID: 0x20A,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I20: Entry ID: 1602,DID: 0x20B,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I21: Entry ID: 1603,DID: 0x129,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+[2025.05.15 08:24:16]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 28 / 30$
+[2025.05.15 08:24:18]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:18]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:24:19]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:24:19]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:24:19]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:24:19]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:24:19]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297459000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 5^I$
+^IIO ID[113]: 10^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 983^I$
+^IIO ID[ 18]: -20^I$
+^IIO ID[ 19]: -883^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:24:19]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:24:19]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:19]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3706 BatI: 117$
+[2025.05.15 08:24:19]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:16 Limit:10800$
+[2025.05.15 08:24:19]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:24:19]-[REC.SEND.1]^Ilink tmo: 30/3600. State:0$
+[2025.05.15 08:24:20]-[RECMNG]^IRec saved ts:1747297459000 @ 0x000B47A2 hp 0x00000000$
+[2025.05.15 08:24:20]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:24:20]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:24:20]-[CODEC.APP]^IRec found at 0x000B47A2, sort:1$
+[2025.05.15 08:24:20]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:24:20]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:24:20]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:24:20]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:24:20]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:24:20]-[CODEC.APP]^IRec found at 0x000B47A2, sort:1$
+[2025.05.15 08:24:20]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:24:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:24:20]-[CMD.DEBUG]^ICommand not found! From:2 (^IRe[202[202[202[202[202[202[202[202[[202[202[202[202[2[202[[202[2[202[20[202[202[202[202[202[2)$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:20]-[ATCMD]^I<<AT+CIPSEND=0,337$
+$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:20]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:24:20]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[213] +CIPACK:13865,13528,337$
+[2025.05.15 08:24:20]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:20]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:21]-[CODEC.APP]^I0x000B47A2 record marked for server:0$
+[2025.05.15 08:24:21]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:24:21]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:24:21]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:24:21]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:24:21]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:24:21]-[REC.SEND.1]^Iwaiting -> 1$
+[2025.05.15 08:24:21]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:24:21]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:24:21]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:24:26]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 8 / 30$
+[2025.05.15 08:24:28]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:28]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:24:28]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:24:28]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:24:28]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:28]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:24:28]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:24:28]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:24:29]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:24:29]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[131] +QCSQ: "LTE",-72,-100,57,-12$
+[2025.05.15 08:24:29]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^I#RSSI: -72 dBm$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^I#RSRP: -100 dBm$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^I#SINR: -8.6 dB$
+$
+[2025.05.15 08:24:29]-[AT.RSP]^I#RSRQ: -12 dB$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[130] +CSQ: 20,99$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:24:29]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:24:29]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:24:29]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:24:29]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:24:29]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:24:29]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:24:30]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:24:36]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 18 / 30$
+[2025.05.15 08:24:37]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:37]-[ATCMD]^I<<AT+CIPSEND=0,31$
+$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:37]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:24:37]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[213] +CIPACK:13896,13865,31$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:37]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:37]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:24:37]-[ATCMD]^I<<AT+CIPRXGET=2,0,1460$
+$
+[2025.05.15 08:24:37]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:24:37]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:24:38]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:39]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:41]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:24:44]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:24:44]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:24:46]-[ADC]^IValues Table:$
+^I[Core V        ]:^I^I1.000^I(3949)^I0$
+^I[External V    ]:^I^I16.000^I(14643)^I400$
+^I[Battery V     ]:^I^I1.727^I(3709)^I0$
+^I[Ch. current   ]:^I^I0.060^I(117)^I0$
+^I[OBD Periph    ]:^I^I5.085^I(14333)^I0$
+^I[NTC           ]:^I^I1.000^I(1853)^I0$
+^IUsing Conv Table:FMB0XX CalibVals:1$
+[2025.05.15 08:24:47]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 28 / 30$
+[2025.05.15 08:24:49]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:24:49]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:24:49]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:24:49]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:24:49]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297489000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 5^I$
+^IIO ID[113]: 10^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 982^I$
+^IIO ID[ 18]: -22^I$
+^IIO ID[ 19]: -886^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:24:49]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:24:49]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:24:49]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:49]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:24:49]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:49]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3711 BatI: 117$
+[2025.05.15 08:24:49]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:1 Limit:10800$
+[2025.05.15 08:24:49]-[RECMNG]^IRec saved ts:1747297489000 @ 0x000B47A3 hp 0x00000000$
+[2025.05.15 08:24:49]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:24:49]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:24:49]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:24:49]-[CODEC.APP]^IRec found at 0x000B47A3, sort:1$
+[2025.05.15 08:24:50]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:24:50]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:24:50]-[CODEC.APP]^IRec found at 0x000B47A3, sort:1$
+[2025.05.15 08:24:50]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:24:50]-[CMD.DEBUG]^ICommand not found! From:2 (^IRe[202[202[202[202[202[202[202[202[202[[202[202[202[202[[202[202[202[[202[202[202[202[202)$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:24:50]-[ATCMD]^I<<AT+CIPSEND=0,337$
+$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:24:50]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:24:50]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[213] +CIPACK:14233,13896,337$
+[2025.05.15 08:24:50]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:24:50]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:24:50]-[CODEC.APP]^I0x000B47A3 record marked for server:0$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:24:50]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:24:50]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:24:50]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Iwaiting -> 1$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:24:50]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:24:50]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:24:57]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 8 / 30$
+[2025.05.15 08:24:59]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:24:59]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:24:59]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:24:59]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:24:59]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:24:59]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:24:59]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:24:59]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:24:59]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:24:59]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[131] +QCSQ: "LTE",-74,-100,59,-10$
+[2025.05.15 08:24:59]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^I#RSSI: -74 dBm$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^I#RSRP: -100 dBm$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^I#SINR: -8.2 dB$
+$
+[2025.05.15 08:24:59]-[AT.RSP]^I#RSRQ: -10 dB$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[130] +CSQ: 19,99$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:24:59]-[MovDetect]^ITime: 1747297499, Thr: accel: 0.127482, movement_cnt: 0, gnss_speed: 0.000000$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:24:59]-[MovDetect]^ITime: 1747297499, Thr: accel: 0.071818, movement_cnt: 0, gnss_speed: 0.000000$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:24:59]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:24:59]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:24:59]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:24:59]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:24:59]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:25:00]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:25:01]-[SYS.DIAG]^I$
+$
+Code Version:03.29.00$
+Code Rev:1113$
+IMEI:^I864636064859107$
+HW ver:^IFMC003$
+HW mod:^I2$
+HW volt:2546mV$
+HW tbl:^I5$
+BL ver:^I1.10$
+BLE:^I1$
+NAND:^I3$
+AXL:^I1/LIS3DH$
+$
+BT ADDR:{7B:F1:5B:BA:62:61}$
+$
+Started:2025-5-15 8:7$
+Uptime:^I0d 0h 17min 2s$
+PWR rsn:PwrVoltage Cnt:0 Abn:0$
+Mode:Unknown on Moving$
+SpcId:1$
+UpdRes:-65536$
+$
+$
+Calib:^IFull$
+Run:^I0$
+Qual:^I1.00$
+Dbg:^I0$
+Iter:^I0,0$
+G{0.971063;-0.080653;-0.224794}$
+R{-0.064914;-0.995540;-0.002837}$
+MAP{1.000000;1.000000;1.000000}$
+DynZ{0.000754;-0.017938;0.999839}$
+$
+$
+GPS Fix: 0$
+No fix reason: 3585$
+GPS state: 1$
+TTFF:^I 0s$
+TTLF:^I 0s$
+NoFix:^I 1020s$
+Latitude :57.013817$
+Longitude:9.986203$
+Altitude :0$
+FW Ver:^IAXN_5.1.9$
+SN mode: 0$
+$
+TSYNC:^I Last Sync:NTP at 1747296555s, NTP cnt:1, Fails:0$
+$
+[2025.05.15 08:25:03]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 14 / 30$
+[2025.05.15 08:25:09]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:09]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:09]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:10]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:10]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:25:13]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 24 / 30$
+[2025.05.15 08:25:14]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:25:14]-[TRIP]^IDistance driven: 0 km$
+[MODEM.STATUS]$
+$
+^ICCID        : 89358151000014474335$
+^IIMSI        : 208090117229056$
+^IData Link   : 1/0/0/0/0/0$
+^IGPRS Status : 1$
+^IPhone Status: 0$
+^IPIN Attempts : 3,3$
+^IGSM Operator: 23820$
+^IBat. Charge : 0$
+^IGSM Signal  : 4$
+^IService     : 0$
+^INew Message : 0$
+^IRoaming     : 1$
+^ISMS Full    : 0$
+^IVoice Call  : 0$
+^ILAC         : 14011$
+^ICell ID     : 41971232$
+^ICFUN        : 1$
+^ICSQ (rssi)  : 19$
+^IQCSQ (rssi) : -74 dBm$
+^IQCSQ (rsrp) : -100 dBm$
+^IQCSQ (sinr) : -8.2 dB$
+^IQCSQ (rsrq) : -10 dB$
+^I[0]SIM detected: 1$
+^INetwork Type: 2/4G$
+^ICurrent LTE BAND: 20$
+$
+^IModem (Relative / Absolute):$
+^IStPin fails : 0 / 0$
+^IAT dead cnt : 0 / 0$
+^IInit fails  : 0 / 0$
+$
+[2025.05.15 08:25:19]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:25:19]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:25:19]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:25:19]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:25:19]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297519000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 4^I$
+^IIO ID[113]: 10^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 978^I$
+^IIO ID[ 18]: -28^I$
+^IIO ID[ 19]: -883^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:25:19]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:25:19]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:19]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:25:19]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:19]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3711 BatI: 117$
+[2025.05.15 08:25:19]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:1 Limit:10800$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Ilink tmo: 30/3600. State:0$
+[2025.05.15 08:25:20]-[RECMNG]^IRec saved ts:1747297519000 @ 0x000B47A4 hp 0x00000000$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:25:20]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:25:20]-[CODEC.APP]^IRec found at 0x000B47A4, sort:1$
+[2025.05.15 08:25:20]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:25:20]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:25:20]-[CODEC.APP]^IRec found at 0x000B47A4, sort:1$
+[2025.05.15 08:25:20]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:25:20]-[CMD.DEBUG]^ICommand not found! From:2 (^IRe[202[202[202[202[202[202[202[202[202[202[202[202[202[[202[[202[[2[202[[202[202[202[202[)$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:25:20]-[ATCMD]^I<<AT+CIPSEND=0,337$
+$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:25:20]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:25:20]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[213] +CIPACK:14570,14233,337$
+[2025.05.15 08:25:20]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:25:20]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:25:20]-[CODEC.APP]^I0x000B47A4 record marked for server:0$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:25:20]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:25:20]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:25:20]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Iwaiting -> 1$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:25:20]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:25:20]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:25:23]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 4 / 30$
+[2025.05.15 08:25:29]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:29]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:29]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:25:29]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:25:29]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:25:29]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:29]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:25:29]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:25:29]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:25:29]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[131] +QCSQ: "LTE",-71,-101,56,-13$
+[2025.05.15 08:25:29]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^I#RSSI: -71 dBm$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^I#RSRP: -101 dBm$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^I#SINR: -8.8 dB$
+$
+[2025.05.15 08:25:29]-[AT.RSP]^I#RSRQ: -13 dB$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[130] +CSQ: 21,99$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:25:29]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:25:29]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:25:29]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:25:29]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:25:29]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:25:30]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:25:31]-[APN.LIST]^IAutoAPN save count: 0$
+[2025.05.15 08:25:31]-[GPS.TEST]^I[GPS.DATA] gps state: ON$
+status FIX: 0$
+No fix reason: 3585$
+moment RMC status: V$
+moment GGA quality: 0$
+moment latitude: 0.000000, good latitude: 57.013817$
+moment longitude: 0.000000, good longitude: 9.986203$
+moment altitude: 0.000000, good altitude: 0.000000$
+moment speed: 0.387551, good speed: 0.000000$
+moment angle: 305.179993, good angle: 0.000000$
+moment gps sats in view/use: 13/0$
+moment galileo sats in view/use: 0/0$
+moment glonass sats in view/use: 7/0$
+moment beidou sats in view/use: 0/0$
+moment total GSV sats in view: 20$
+moment total GSA sats in use: 0$
+status time: 08:25:31$
+status date: 2025.05.15$
+GPS init status: 3$
+moment avg pdop: 0.000000$
+moment avg hdop: 0.000000$
+moment accuracy: 282842.687500$
+fw version: MT3333_AXN_5.1.9_MT2503_STD_F0,0000,,$
+GNSS system: GPS GLONASS$
+nmea data captured: 1051$
+nmea stability: 0$
+SN mode: 0$
+gps flashing: 0$
+version state: 3$
+[2025.05.15 08:25:33]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 14 / 30$
+[2025.05.15 08:25:37]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:25:38]-[ATCMD]^I<<AT+CIPSEND=0,31$
+$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:25:38]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:25:38]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[213] +CIPACK:14601,14570,31$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:25:38]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:25:38]-[MDM.QTL]^IRX HANDLE data pending state$
+[2025.05.15 08:25:38]-[ATCMD]^I<<AT+CIPRXGET=2,0,1460$
+$
+[2025.05.15 08:25:38]-[MDM.QTL]^IRX HANDLE data receive state$
+[2025.05.15 08:25:38]-[ATCMD]^I>>[216] OK$
+[2025.05.15 08:25:38]-[MQTT]^IWARNING @ 148:Timer has expired$
+[2025.05.15 08:25:38]-[MQTT]^IWARNING @ 148:Timer has expired$
+[2025.05.15 08:25:39]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:39]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:39]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:40]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:25:43]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 24 / 30$
+[2025.05.15 08:25:44]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:25:44]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:25:46]-[OBDII]^IState:DATA REQUESTING(8) Lock:0 (cnt:0) Protocol:6 (last:6) Vext:14643 MovI:0 MovD:0 Header:0x7E8 Phy:0$
+[2025.05.15 08:25:46]-[OBDII]^IVIN:WVWZZZE1ZMP018990 Avail:0xFFFFFFFF;0xFFFFFFFF;0xFFFFFFFF;0xFFFFFFFF;0x00000000;0x00000000 PidCnt:9 ICtyp:3 ICver:v100.11800.100 CfgMode:1$
+[2025.05.15 08:25:46]-[OBDII]^INoECU:0 NoPID:0 0x00000000;0x00000000;0x00000000;0x00000000;0x00000000;$
+[2025.05.15 08:25:46]-[OBD.OEM]^IOEM Diagnostics:$
+^IOBDII data: 1$
+^IVIN VEH: WVWZZZE1ZMP018990 (manual:1), source: 4$
+^ICurrent state: 6 (Error state)$
+^IFSM error occured: -7$
+^IRequest error occured: 0$
+^IDataInfo is present: 1$
+^INew DataInfo present: 0$
+^IRequest retry timer: 0 s$
+^IRequest retry count: 0$
+^IGeneral error count: 0$
+[2025.05.15 08:25:46]-[OBD.OEM]^IVehicle data:$
+^IVER:5$
+^IDB source: 0 (0)$
+^IGenResult: 1$
+^IVIN: WVWZZZE1ZMP018990 (src:3)$
+^IDescription: Volkswagen;id.3;2021;vw_id3_e1                    $
+^IGenTime: 1745843861$
+[2025.05.15 08:25:46]-[OBD.OEM]^ITotal OEM DIDs:22$
+^I0: Entry ID: 1022,DID: 0x101,Valid: 0,Fail Cnt: 0,Valid State: 1,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I1: Entry ID: 1023,DID: 0x101,Valid: 0,Fail Cnt: 0,Valid State: 1,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I2: Entry ID: 1027,DID: 0x10F,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I3: Entry ID: 1028,DID: 0x108,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I4: Entry ID: 1029,DID: 0x128,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I5: Entry ID: 1030,DID: 0x129,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I6: Entry ID: 1031,DID: 0x127,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I7: Entry ID: 1234,DID: 0x144,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I8: Entry ID: 1588,DID: 0x203,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I9: Entry ID: 1589,DID: 0x202,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I10: Entry ID: 1590,DID: 0x146,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I11: Entry ID: 1591,DID: 0x147,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I12: Entry ID: 1592,DID: 0x205,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I13: Entry ID: 1593,DID: 0x204,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I14: Entry ID: 1594,DID: 0x20D,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I15: Entry ID: 1596,DID: 0x207,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I16: Entry ID: 1598,DID: 0x20E,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I17: Entry ID: 1599,DID: 0x20F,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I18: Entry ID: 1600,DID: 0x206,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I19: Entry ID: 1601,DID: 0x20A,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I20: Entry ID: 1602,DID: 0x20B,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+^I21: Entry ID: 1603,DID: 0x129,Valid: 0,Fail Cnt: 0,Valid State: 0,Prot:1/0,Res: 0,Val:0 IO:0x0(0)$
+[2025.05.15 08:25:49]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:25:49]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:25:49]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:25:49]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:25:49]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297549000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 5^I$
+^IIO ID[113]: 11^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 991^I$
+^IIO ID[ 18]: -18^I$
+^IIO ID[ 19]: -893^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:25:49]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:25:49]-[CMD.DEBUG]^ICommand not found! From:2 (1   Stat^I3: ^I4: ^I5: 0x0(0,Fa^I7: 0x0(0x0(^I10:0x0(0^I12:0^I13:0x0(^I150x0(^I16:0x0(0^I18:^I10x0(^I200x0(^I21:0[202[202[202[202[202, s^IIO ^IIO ^I^IIO ^II^IIO ^IIO ^IIO ^IIO ^IIO ^IIO ^IIO ^IIO NaN^I)$
+[2025.05.15 08:25:49]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:49]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:25:49]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:49]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3715 BatI: 117$
+[2025.05.15 08:25:49]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:1 Limit:10800$
+[2025.05.15 08:25:49]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:49]-[RECMNG]^IRec saved ts:1747297549000 @ 0x000B47A5 hp 0x00000000$
+[2025.05.15 08:25:49]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:25:49]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:25:49]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:25:50]-[CODEC.APP]^IRec found at 0x000B47A5, sort:1$
+[2025.05.15 08:25:50]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:25:50]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:25:50]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:25:50]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:25:50]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:25:50]-[CODEC.APP]^IRec found at 0x000B47A5, sort:1$
+[2025.05.15 08:25:50]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:25:50]-[CMD.DEBUG]^ICommand not found! From:2 (^IRe[202[202[202[202[202[202[202[202[202[202[20[202[202[202[202[[202[2[202[[2025 08[20[202[202[202[202[)$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:25:50]-[ATCMD]^I<<AT+CIPSEND=0,337$
+$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:25:50]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:25:50]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[213] +CIPACK:14938,14601,337$
+[2025.05.15 08:25:50]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:25:50]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:25:50]-[CODEC.APP]^I0x000B47A5 record marked for server:0$
+[2025.05.15 08:25:50]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:25:50]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:25:50]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:25:51]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:25:51]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:25:51]-[REC.SEND.1]^Iwaiting -> 2$
+[2025.05.15 08:25:51]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:25:51]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:25:51]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:25:53]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 4 / 30$
+[2025.05.15 08:25:59]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:25:59]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:25:59]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:25:59]-[FC.CALC]^ITotal writes: 1$
+[2025.05.15 08:25:59]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:25:59]-[MODEM.ST]^IAT dead RSNs: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0$
+[2025.05.15 08:25:59]-[MODEM.ACTION]^IGSM Update Reason:Periodic$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CPAS$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[133] +CPAS: 0$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[133] OK$
+[2025.05.15 08:25:59]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CIMI$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[170] 208090117229056$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[170] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CREG?$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[138] +CREG: 2,5,"36bb","02806e20",7$
+[2025.05.15 08:25:59]-[AT.RSP]^IStatus: 5$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^IArea Code: 14011$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^ICell ID: 41971232$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^IRegistration Mode: 7$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^IRegistered To Roaming Network$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[138] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+QNWINFO$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[132] +QNWINFO: "FDD LTE","23820","LTE BAND 20",6200$
+[2025.05.15 08:25:59]-[AT.RSP]^IQNWINFO operator acquired: 23820$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[132] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+QCSQ$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[131] +QCSQ: "LTE",-71,-101,57,-12$
+[2025.05.15 08:25:59]-[AT.RSP]^I#RAT: "LTE"$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^I#RSSI: -71 dBm$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^I#RSRP: -101 dBm$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^I#SINR: -8.6 dB$
+$
+[2025.05.15 08:25:59]-[AT.RSP]^I#RSRQ: -12 dB$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[131] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CSQ$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[130] +CSQ: 21,99$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[130] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CFUN?$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[150] +CFUN: 1$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[150] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+COPS?$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[134] +COPS: 0,2,"23820",7$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[134] OK$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CMGL=4$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[136] OK$
+[2025.05.15 08:25:59]-[MOD.TSK]^ISMS Read Map:0,0,0,0 Index:32$
+[2025.05.15 08:25:59]-[MODEM.ACTION]^ISMS Not Found$
+[2025.05.15 08:25:59]-[ATCMD]^I<<AT+CGACT?$
+$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[208] +CGACT: 1,1$
+[2025.05.15 08:25:59]-[ATCMD]^I>>[208] OK$
+[2025.05.15 08:25:59]-[MODEM.ACTION]^Istatus done$
+[2025.05.15 08:26:00]-[REC.SEND.1]^Ilink tmo: 10/3600. State:0$
+[2025.05.15 08:26:03]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 14 / 30$
+[2025.05.15 08:26:09]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:26:09]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:26:09]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:26:10]-[REC.SEND.1]^Ilink tmo: 20/3600. State:0$
+[2025.05.15 08:26:13]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 24 / 30$
+[2025.05.15 08:26:14]-[TRIP]^IPeriodic info: State -> Moving. Spd:50km/h, Mov:YES, Ign:ON, TripBT:0$
+[2025.05.15 08:26:14]-[TRIP]^IDistance driven: 0 km$
+[2025.05.15 08:26:16]-[ADC]^IValues Table:$
+^I[Core V        ]:^I^I1.000^I(3953)^I0$
+^I[External V    ]:^I^I16.000^I(14638)^I400$
+^I[Battery V     ]:^I^I1.727^I(3715)^I0$
+^I[Ch. current   ]:^I^I0.060^I(117)^I0$
+^I[OBD Periph    ]:^I^I5.085^I(14333)^I0$
+^I[NTC           ]:^I^I1.000^I(1843)^I0$
+^IUsing Conv Table:FMB0XX CalibVals:1$
+[2025.05.15 08:26:19]-[TRACK]^IMinPeriod record action [30=<30]$
+[2025.05.15 08:26:19]-[TRACK]^IPeriodic Record Action!$
+[2025.05.15 08:26:19]-[REC.GEN]^IData link is open -> send rec immediately$
+[2025.05.15 08:26:19]-[REC.SEND.1]^ICaller: 0138, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:26:19]-[REC.GEN]^IRecord Content:$
+$
+^ITimestamp: 1747297579000$
+^IPriority : 1$
+^ILatitude : 57.013817$
+^ILongitude: 9.986203$
+^IAltitude : 0$
+^IAngle    : 0$
+^ISpeed    : 0$
+^IHDOP     : 0.0$
+^ISatInUse : 0$
+^IGPS Fix  : 0$
+^IGSpeed   : 50, src: OBD$
+$
+^IEvent AVL ID : 0$
+$
+^IIO ID[239]: 1^I$
+^IIO ID[ 21]: 5^I$
+^IIO ID[113]: 11^I$
+^IIO ID[ 30]: 0^I$
+^IIO ID[ 37]: 50^I$
+^IIO ID[ 53]: -40^I$
+^IIO ID[ 66]: 14643^I$
+^IIO ID[ 68]: 117^I$
+^IIO ID[ 17]: 987^I$
+^IIO ID[ 18]: -25^I$
+^IIO ID[ 19]: -893^I$
+^IIO ID[ 36]: 360^I$
+^IIO ID[ 49]: 0^I$
+^IIO ID[ 55]: 0^I$
+^IIO ID[199]: 0^I$
+^IIO ID[ 16]: 62678574^I$
+^IIO ID[ 12]: 37164^I$
+^IIO ID[281] Length[   0]: NaN^I$
+$
+^IRecord Size:^I149 Bytes$
+$
+[2025.05.15 08:26:19]-[REC.GEN]^IPeriodic low priority record save queued$
+[2025.05.15 08:26:19]-[OVERSPD]^IScenario disabled!$
+[2025.05.15 08:26:19]-[REC.SEND.1]^ICaller: 1697, queueing recsend1 task job type: 0/records$
+[2025.05.15 08:26:19]-[SLEEP]^IWARNING @ 260:Sleep:2, not allowed! Reason:Ignition$
+[2025.05.15 08:26:19]-[LiPo]^IBatState: 1 FSMState: ACTIVE ChargerIC: CHARGING ExtV: 14643 BatV: 3716 BatI: 117$
+[2025.05.15 08:26:19]-[WD.FUNC]^IWARNING @ 205:[1] counter:2 Cnt:1 Limit:10800$
+[2025.05.15 08:26:19]-[OBD.OEM]^I^I*** Vehicle Not supported! Please, contact to support! ***$
+[2025.05.15 08:26:19]-[RECMNG]^IRec saved ts:1747297579000 @ 0x000B47A6 hp 0x00000000$
+[2025.05.15 08:26:19]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:26:19]-[REC.GEN]^I.0 Set 1/1 min required records to send!$
+[2025.05.15 08:26:19]-[CODEC.APP]^IRec found at 0x000B47A6, sort:1$
+[2025.05.15 08:26:19]-[REC.SEND.1]^IHave enough records to send!$
+[2025.05.15 08:26:19]-[REC.SEND.1]^I[CHANGE.STATE.0478] Server: 0, check rec no => check gprs$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Icheck gprs$
+[2025.05.15 08:26:19]-[CMD.DEBUG]^ICommand not found! From:2 (^IRe[202[202[202[202[202[202[202[202[202[[202[202[202)$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Igprs is open$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Igprs settings the same -> check link$
+[2025.05.15 08:26:19]-[REC.SEND.1]^I[CHANGE.STATE.0550] Server: 0, check gprs => check link$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Icheck link$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Ilink is open already$
+[2025.05.15 08:26:19]-[REC.SEND.1]^I[CHANGE.STATE.0704] Server: 0, check link => send records$
+[2025.05.15 08:26:19]-[REC.SEND.1]^Isend records$
+[2025.05.15 08:26:19]-[REC.GEN]^IServer: 0, not all min records send: 1/1$
+[2025.05.15 08:26:20]-[CODEC.APP]^IRec found at 0x000B47A6, sort:1$
+[2025.05.15 08:26:20]-[ATCMD]^I<<AT+CIPSTATUS=0$
+$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Irecords packed: 1, waiting 40 sec for answer$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Ilink tmo reset for server: 0$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[222] +CIPSTATUS:0,0,TCP,52.28.215.40,8883,CONNECT OK$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[225] OK$
+[2025.05.15 08:26:20]-[ATCMD]^I<<AT+CIPSEND=0,337$
+$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[214] >K$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[215]  $
+[2025.05.15 08:26:20]-[ATCMD]^I>>[215] 0,SEND OK$
+[2025.05.15 08:26:20]-[ATCMD]^I<<AT+CIPACK=0$
+$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[213] +CIPACK:15275,14938,337$
+[2025.05.15 08:26:20]-[ATCMD]^I>>[213] OK$
+[2025.05.15 08:26:20]-[NETWORK]^I[SEND.DATA.0051] Waiting for socket send result, waiting: 10 sec$
+[2025.05.15 08:26:20]-[CODEC.APP]^I0x000B47A6 record marked for server:0$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Iserver accepted records$
+[2025.05.15 08:26:20]-[REC.SEND.1]^ISent 1 records of min required 1$
+[2025.05.15 08:26:20]-[REC.SEND.1]^IMin required records was sent$
+[2025.05.15 08:26:20]-[REC.GEN]^I.0 Not enough records to send! Min:1/0$
+[2025.05.15 08:26:20]-[REC.SEND.1]^I[CHANGE.STATE.1054] Server: 0, send records => waiting$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Iwaiting -> 1$
+[2025.05.15 08:26:20]-[REC.SEND.1]^I[CHANGE.STATE.0250] Server: 0, waiting => check rec no$
+[2025.05.15 08:26:20]-[REC.SEND.1]^Icheck rec no$
+[2025.05.15 08:26:20]-[REC.SEND.1]^I[CHANGE.STATE.0495] Server: 0, check rec no => waiting$
+[2025.05.15 08:26:21]-[MovDetect]^ITime: 1747297581, Thr: accel: 0.128910, movement_cnt: 0, gnss_speed: 0.000000$
+[2025.05.15 08:26:23]-[REC.SEND.1]^IMode: 5/Unknown on Moving. Next periodic data sending: 4 / 30$
+[2025.05.15 08:26:25]-[MovDetect]^ITime: 1747297585, Thr: accel: 0.111930, movement_cnt: 0, gnss_speed: 0.000000$
+[2025.05.15 08:26:25]-[MovDetect]^ITime: 1747297585, Thr: accel: 0.098282, movement_cnt: 0, gnss_speed: 0.000000$
