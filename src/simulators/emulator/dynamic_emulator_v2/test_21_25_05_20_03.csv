@@ -1,0 +1,10 @@
+PID,Name,Count,MinValue,MaxValue
+0C,RPM,308,1200.0,1299.63
+0D,Speed,308,0.0,5.53
+46,AirTemp,308,10.0,11.38
+4E,FuelRate,308,0.0,0.39
+31,DTC_Distance,308,0.0,553.48
+04,EngineLoad,308,10.0,13.87
+05,CoolantTemp,308,60.0,62.21
+5C,OilTemp,308,70.0,72.21
+2F,FuelLevel,308,76.68,80.0

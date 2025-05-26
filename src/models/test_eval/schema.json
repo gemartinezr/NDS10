@@ -1,0 +1,19 @@
+{
+    "config_id": "basic_001_2025-05-27_chg_dchg_dchg",
+    "timestamp": "2025-05-27T10:00:00Z",
+    "phase": "basic",
+    "pids": [
+        {"pid": 12, "name": "RPM", "strategy": "on_delta_change", "precision": 100, "valid_range": [800, 6000], "score": 0.5},
+        {"pid": 13, "name": "Speed", "strategy": "on_delta_change", "precision": 5, "valid_range": [0, 240], "score": 0.5},
+        {"pid": 39, "name": "Engine Load", "strategy": "on_change", "precision": 5, "valid_range": [0, 100], "score": 0.5}
+    ],
+    "latency_ms": 60000,
+    "latency_score": 1.0,
+    "total_reward": 2.5,
+    "send_period": 10,
+    "min_saved_records": 1,
+    "min_time_per_pid": 10,
+    "test_duration_minutes": 12,
+    "emulator_behavior": ["idle start (3 min)", "city drive (5 min)", "cooldown/off (4 min)"],
+    "notes": "Good variation; RPM too spiky at times."
+}
