@@ -1,0 +1,25 @@
+{
+  "config_id": "config_2",
+  "label": "Balanced Config (Mid-traffic)",
+  "description": "RPM uses 'on_change', others use 'hysteresis'. Designed to reduce noise but remain responsive.",
+  "obd_parameters": [
+    { "pid": 12, "enabled": true, "strategy": "on_change" },
+    { "pid": 13, "enabled": true, "strategy": "hysteresis" },
+    { "pid": 39, "enabled": true, "strategy": "hysteresis" }
+  ],
+  "global_settings": {
+    "min_time": 30,
+    "send_period": 60,
+    "min_saved_records": 1
+  },
+  "test_metadata": {
+    "ts_start": "2025-05-27T14:57:32Z",
+    "ts_end":   "2025-05-27T15:07:32Z",
+    "emulator_script": "test24_12min.py",
+    "test_conditions": [
+      "monotonic PID values with medium activity",
+      "known signal and GPS good",
+      "battery connected, no sleep"
+    ]
+  }
+}

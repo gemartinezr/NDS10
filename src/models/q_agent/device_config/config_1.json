@@ -1,0 +1,25 @@
+{
+  "config_id": "config_1",
+  "label": "Aggressive On-Change (Noisy)",
+  "description": "All 3 PIDs enabled with 'on_change' strategy and long min_time. Expected to generate many redundant messages with low information gain.",
+  "obd_parameters": [
+    { "pid": 12, "enabled": true, "strategy": "on_change" },
+    { "pid": 13, "enabled": true, "strategy": "on_change" },
+    { "pid": 39, "enabled": true, "strategy": "on_change" }
+  ],
+  "global_settings": {
+    "min_time": 300,
+    "send_period": 120,
+    "min_saved_records": 1
+  },
+  "test_metadata": {
+    "ts_start": "2025-05-27T14:34:00Z",
+    "ts_end":   "2025-05-27T14:46:00Z",
+    "emulator_script": "test24_12min.py",
+    "test_conditions": [
+      "trip with mostly monotonic values",
+      "no noise filtering or thresholding",
+      "battery and signal stable"
+    ]
+  }
+}
