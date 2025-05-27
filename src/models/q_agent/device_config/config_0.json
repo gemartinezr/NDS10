@@ -1,5 +1,6 @@
 {
   "config_id": "config_0",
+  "unit_id": "9e46cf6b-184d-4d36-a00c-93f062fc26f2", 
   "label": "Baseline Production",
   "description": "Production config with 3 OBD PIDs set to monitoring and long min_time.",
   "obd_parameters": [
@@ -12,14 +13,25 @@
     "send_period": 120,
     "min_saved_records": 1
   },
-  "test_metadata": {
-    "ts_start": "2025-05-27T14:18:42Z",
-    "ts_end":   "Z",
+  "test_metadata": [{
+    "ts_start": "2025-05-27T12:18:42Z",
+    "ts_end":   "2025-05-27T12:30:42Z",
     "emulator_script": "test24_12min.py",
     "test_conditions": [
       "trip emulation with monotonic PID values",
       "battery, GPS, and GPRS stable",
       "no sleep mode active"
     ]
-  }
+  },
+  {
+    "ts_start": "2025-05-27T20:01:26Z",
+    "ts_end":   "2025-05-27T20:13:26Z",
+    "emulator_script": "test24_12min.py",
+    "test_conditions": [
+      "monotonic PID values with medium activity",
+      "known signal and GPS good",
+      "battery connected, no sleep"
+    ],
+    "test_result": ""
+  }]
 }

@@ -1,46 +1,50 @@
 import json
-import csv
-import sys
+import pandas as pd
+from glob import glob
+import os
 
-# Check for the command-line argument
-if len(sys.argv) < 3:
-    print("Usage: python script.py <input_json> <filter_value>")
-    sys.exit(1)
+def load_json_results(file_path):
+    with open(file_path, 'r') as f:
+        return json.load(f)["results"]
 
-input_json = sys.argv[1]
-filter_value = sys.argv[2]
-file_name = input_json.replace('customer_data/', '')
-output_csv = f"customer_data/filtered_data_{file_name.replace('response_', '').replace('.json','')}.csv"
+# Set this to the path where your JSON files are located
+data_dir = "../es_data/vehicle_data/"  # <-- CHANGE THIS
 
-# Load JSON data
-with open(input_json, "r") as json_file:
-    data = json.load(json_file)
+# Create full file patterns
+file_map = {
+    "obd_rpm": sorted(glob(os.path.join(data_dir, "obd_rpm_*.json"))),
+    "obd_speed": sorted(glob(os.path.join(data_dir, "obd_speed_*.json"))),
+    "obd_engine_load": sorted(glob(os.path.join(data_dir, "obd_engine_load_*.json"))),
+}
 
-# Extract the relevant records from the JSON
-records = data["results"]
+print("RPM files found:", file_map["obd_rpm"])
 
-# Collect unique keys in `data` to define CSV header dynamically
-data_keys = set()
-for record in records:
-    data_keys.update(record["data"].keys())
+# Build a dictionary indexed by ts
+data_by_ts = {}
 
-# Define the CSV header fields
-header = ["rec", "ts", "t"] + list(data_keys)
+for key, files in file_map.items():
+    for file in files:
+        for entry in load_json_results(file):
+            ts = entry["ts"]
+            rec = entry["rec"]
+            val = entry["data"]["value"]
+            if ts not in data_by_ts:
+                data_by_ts[ts] = {
+                    "ts_recorded": ts,
+                    "ts_uploaded": rec,
+                    "obd_rpm": None,
+                    "obd_speed": None,
+                    "obd_engine_load": None
+                }
+            if rec > data_by_ts[ts]["ts_uploaded"]:
+                data_by_ts[ts]["ts_uploaded"] = rec
+            data_by_ts[ts][key] = val
 
-# Write to CSV with filtering
-with open(output_csv, "w", newline="") as csv_file:
-    writer = csv.DictWriter(csv_file, fieldnames=header)
-    writer.writeheader()
+# Convert to DataFrame
+df = pd.DataFrame(data_by_ts.values())
+df.sort_values("ts_recorded", inplace=True)
 
-    # Write only the rows where `t` matches the filter value
-    for record in records:
-        if record.get("t") == filter_value:
-            row = {
-                "rec": record.get("rec"),
-                "ts": record.get("ts"),
-                "t": record.get("t"),
-                **{key: record["data"].get(key, None) for key in data_keys}
-            }
-            writer.writerow(row)
-
-print(f"Filtered CSV has been created as {output_csv} with t = '{filter_value}'")
+# Save CSV to same directory
+csv_output = os.path.join(data_dir, "merged_obd_data.csv")
+df.to_csv(csv_output, index=False)
+print(f"CSV saved to {csv_output}")

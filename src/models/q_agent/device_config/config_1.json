@@ -12,14 +12,26 @@
     "send_period": 120,
     "min_saved_records": 1
   },
-  "test_metadata": {
-    "ts_start": "2025-05-27T14:34:00Z",
-    "ts_end":   "2025-05-27T14:46:00Z",
+  "test_metadata": [{
+    "ts_start": "2025-05-27T12:34:00Z",
+    "ts_end":   "2025-05-27T12:46:00Z",
     "emulator_script": "test24_12min.py",
     "test_conditions": [
       "trip with mostly monotonic values",
       "no noise filtering or thresholding",
       "battery and signal stable"
     ]
+  },
+  {
+    "ts_start": "2025-05-27T20:17:33Z",
+    "ts_end":   "2025-05-27T20:29:33Z",
+    "emulator_script": "test24_12min.py",
+    "test_conditions": [
+      "monotonic PID values with medium activity",
+      "known signal and GPS good",
+      "battery connected, no sleep"
+    ],
+    "test_result": ""
   }
+]
 }
