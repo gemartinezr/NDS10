@@ -1,22 +1,21 @@
 {
-  "config_id": "config_0",
-  "unit_id": "9e46cf6b-184d-4d36-a00c-93f062fc26f2", 
-  "label": "Baseline Production",
-  "description": "Production config with 3 OBD PIDs set to monitoring and long min_time.",
+  "config_id": "config_7",
+  "unit_id": "9e46cf6b-184d-4d36-a00c-93f062fc26f2",
+  "label": "Long Send Period",
+  "description": "Increase send_period to evaluate longer transmission intervals",
   "obd_parameters": [
     { "pid": 12, "enabled": true, "strategy": "monitoring" },
     { "pid": 13, "enabled": true, "strategy": "monitoring" },
     { "pid": 39, "enabled": true, "strategy": "monitoring" }
   ],
   "global_settings": {
-    "min_time": 300, 
-    "send_period": 120,
+    "min_time": 300,
+    "send_period": 180,
     "min_saved_records": 1
   },
-  "test_metadata": [
-  {
-    "ts_start": "2025-05-27T20:01:26Z",
-    "ts_end":   "2025-05-27T20:13:26Z",
+  "test_metadata": [{
+    "ts_start": "2025-05-28T16:33:28Z",
+    "ts_end":   "2025-05-28T16:45:28Z",
     "emulator_script": "test24_12min.py",
     "test_conditions": [
       "monotonic PID values with medium activity",
