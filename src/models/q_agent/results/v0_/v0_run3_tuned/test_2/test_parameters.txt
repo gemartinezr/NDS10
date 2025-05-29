@@ -1,0 +1,5 @@
+csv_file_used: ./es_events/poc_and_v0_data.csv
+config_file: config_2.json
+epsilon: 0.10980970238196874
+gamma: 0.5
+alpha: 0.7

@@ -1,0 +1,5 @@
+csv_file_used: ./es_events/obd_data_main.csv
+config_file: config_4.json
+epsilon: 0.1464129365092918
+gamma: 0.85
+alpha: 0.6

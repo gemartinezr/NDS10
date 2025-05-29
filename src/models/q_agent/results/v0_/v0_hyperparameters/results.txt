@@ -1,0 +1,25 @@
+Config vector 0 loaded: [12, 1, 13, 1, 39, 1, 300, 120, 1]
+
+=== Running with epsilon = 0.05 ===
+→ avg_final_reward = 2.425
+
+=== Running with epsilon = 0.10 ===
+→ avg_final_reward = 2.425
+
+=== Running with epsilon = 0.20 ===
+→ avg_final_reward = 1.890
+
+=== Running with epsilon = 0.30 ===
+→ avg_final_reward = 2.825
+
+
+
+
+
+
+
+
+
+
+
+

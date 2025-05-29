@@ -1,0 +1,13 @@
+{
+    "test_ts": "2025-05-29T18:45:00", 
+    "epsilon": 0.4,
+    "gamma": 0.85,
+    "alpha": 0.6,
+    "avg_final_reward": 3.625,
+    "initial_config_vector": [12, 1, 13, 1, 39, 1, 300, 120, 1],
+    "best_config_vector": [12, 2, 13, 1, 39, 3, 300, 90, 2],
+    "num_pids": 3,
+    "csv_path": "./data/vehicle_trip_03.csv",
+    "start_time": "2025-05-28 14:00:00",
+    "end_time": "2025-05-28 14:10:00"
+}
