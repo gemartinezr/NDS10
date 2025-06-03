@@ -3,3 +3,4 @@ documents/
 src/logs/
 es_data/
 .token
+*.cfg
