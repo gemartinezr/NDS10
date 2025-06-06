@@ -1,6 +1,7 @@
 csv_data/
-documents/
-src/logs/
 es_data/
+documents/
+mqtt_logs/
+src/logs/
 .token
 *.cfg
